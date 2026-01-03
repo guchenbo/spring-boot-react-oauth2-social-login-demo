@@ -16,6 +16,7 @@ class OAuth2RedirectHandler extends Component {
         const error = this.getUrlParameter('error');
 
         if(token) {
+            console.log(token)
             localStorage.setItem(ACCESS_TOKEN, token);
             return <Redirect to={{
                 pathname: "/profile",
