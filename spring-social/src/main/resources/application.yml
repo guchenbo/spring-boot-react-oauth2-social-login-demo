@@ -69,7 +69,7 @@ app:
       - myandroidapp://oauth2/redirect
       - myiosapp://oauth2/redirect
 server:
-  port: 7101
+  port: 8080
 
 auth:
   server:
